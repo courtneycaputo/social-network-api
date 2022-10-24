@@ -33,7 +33,7 @@ thoughtSchema
     return this.tags.length;
   });
 
-// Initialize our Post model
+
 const Thought = model('thought', thoughtSchema);
 
 module.exports = Thought;
