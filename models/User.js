@@ -18,13 +18,15 @@ const userSchema = new Schema({
   thoughts: [
     {
       type: Schema.Types.ObjectId,
-      ref: 'Thought'
+      // refers to thought document model
+      ref: 'thought'
     }
   ],
   friends: [
     {
       type: Schema.Types.ObjectId,
-      ref: 'User'
+      // refers to user document model
+      ref: 'user'
     }
   ]
 },
