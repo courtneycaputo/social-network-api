@@ -97,11 +97,12 @@ router.post('/:userId/friends/:friendId', async (req, res) => {
 // DELETE FRIEND from user's friend list
 router.delete('/:userId/friends/:friendId', async (req, res) => {
     try {
-        const dbUserData = await User.findOneAndDelete(
+        const dbUserData = await User.findOneAndUpdate(
             { _id: req.params.userId },
             { $pull: { friends: req.params.friendId}},
             { new: true }
-        );
+        )
+        .populate('friends');
         if (!dbUserData) {
             return res.status(404).json({ message: "Invalid user ID!" })
         }
