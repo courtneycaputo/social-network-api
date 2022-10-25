@@ -22,9 +22,9 @@ To use this application, clone the repository from GitHub. This application uses
 ## Usage Information: <a name="usage"></a>
 This application demonstrates the API for a social network website that allows users to be created, updated, and deleted. It also allows users to post, update, and delete thoughts, as well as add and delete reactions to the thoughts they have posted.
 
-<a href="">Demo video</a> to see API User routes being tested in Insomnia.
+<a href="https://drive.google.com/file/d/1pUUtzlcEIZSwmWyAquQexY8cHP3hFZN3/view">Demo video</a> to see API User routes being tested in Insomnia.
 
-<a href="">Demo Video</a> to see API Thought routes being tested in Insomnia.
+<a href="https://drive.google.com/file/d/1POPOEVnj264_iqvnmFF0eWDTT-sMdF9y/view">Demo Video</a> to see API Thought routes being tested in Insomnia.
 
 ## License: <a name="license"></a>
 This project is licensed under the MIT license.
